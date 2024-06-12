@@ -10,7 +10,7 @@ const Appbar = () => {
         <header className={`header-container ${isDarkMode ? 'dark' : ''}`}>
             <div className="header-content">
                 <h2 className="title">
-                    <Link to={'/'}>Where in the world?</Link>
+                    <Link to={'/'}>EARTH'S🌏COUNTRY:)</Link>
                 </h2>
                 <p className="theme-changer" onClick={toggleTheme}>
                     <i className={`fa-regular ${isDarkMode ? 'fa-sun' : 'fa-moon'}`}></i>&nbsp;&nbsp;

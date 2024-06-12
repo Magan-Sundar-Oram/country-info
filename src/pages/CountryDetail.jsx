@@ -8,10 +8,8 @@ import { ThemeContext } from '../ThemeContext';
 export default function CountryDetail() {
     const params = useParams();
     const countryName = params.country
-    console.log(countryName)
-    const location = useLocation();
-    const state = location.state;
-    console.log(state)
+    // const location = useLocation();
+    // const state = location.state;
 
     const [countryData, setCountryData] = useState(null);
     const [notFound, setNotFound] = useState(false);
